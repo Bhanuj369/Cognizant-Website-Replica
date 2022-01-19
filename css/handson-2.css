@@ -1,0 +1,598 @@
+body #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #0033a0;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0;
+}
+
+body #myBtn:hover {
+  background-color: #00b140;
+}
+
+body nav.top-layer {
+  width: 100%;
+}
+
+body nav.top-layer div.top-layer-nav a.nav-item {
+  font-weight: 550;
+}
+
+body nav.top-layer div.top-layer-nav a.nav-item:hover {
+  color: #00b140;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+body div.cont-brand {
+  background-color: #fff;
+  display: block;
+}
+
+body div.cont-brand a.brand-name {
+  color: #0033a0;
+  font-size: 34pt;
+  font-weight: 770;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+body div.cont-brand div.dropdown-menu {
+  background-color: #0033a0;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+body div.cont-brand div.dropdown-menu a.dropdown-item {
+  color: #fff;
+}
+
+body div.cont-brand div.dropdown-menu a.dropdown-item:hover {
+  color: #000;
+}
+
+body div.cont-brand a.brand-name:hover {
+  color: #0033a0;
+}
+
+body div.cont-brand div.brand-layer-nav button {
+  font-size: 16pt;
+  border-radius: 0;
+}
+
+body div.cont-brand div.brand-layer-nav button:hover {
+  background-color: #0033a0;
+  color: #fff;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  border-radius: 0;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+body div.carousel img {
+  width: 100%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+body div.carousel h2.car-top-head-1, body div.carousel h2.car-top-head-2, body div.carousel h2.car-top-head-3, body div.carousel h2.car-top-head-4, body div.carousel h2.car-top-head-5 {
+  margin-right: 900px;
+  margin-bottom: 30px;
+  margin-top: -300px;
+  font-size: 40pt;
+  color: #0033a0;
+  font-weight: 700;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,"ms gothic";
+}
+
+body div.carousel h2.car-top-head-2 {
+  margin-right: 750px;
+}
+
+body div.carousel h2.car-top-head-3 {
+  margin-right: 750px;
+}
+
+body div.carousel h2.car-top-head-4 {
+  margin-right: 700px;
+}
+
+body div.carousel h2.car-top-head-5 {
+  margin-right: 720px;
+}
+
+body div.carousel p {
+  margin-right: 740px;
+  margin-bottom: 0;
+  font-weight: 550;
+  font-size: 18;
+  color: #000;
+}
+
+body div.carousel button.car-button {
+  margin-top: 20px;
+  margin-right: 1000px;
+  border-radius: 0;
+}
+
+body div.card1 div.card {
+  border-radius: 0;
+  margin-top: 30px;
+}
+
+body div.card1 button.card-button {
+  border-radius: 0;
+}
+
+body div.card1 p.p1 {
+  background-color: #0033a0;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 550;
+  width: 130px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div.card1 h3 {
+  color: #0033a0;
+  font-weight: 630;
+}
+
+body div.card1 p.lead {
+  font-weight: 550;
+}
+
+body div.card-23 {
+  margin-top: 20px;
+}
+
+body div.card-23 div.card {
+  border-radius: 0;
+}
+
+body div.card-23 div.card-2 {
+  padding-bottom: 13px;
+}
+
+body div.card-23 h5 {
+  margin-bottom: 10px;
+  background-color: #0033a0;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 550;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div.card-23 h5.card-title-1 {
+  width: 70px;
+}
+
+body div.card-23 h5.card-title-2 {
+  width: 125px;
+}
+
+body div.card-23 p.card-text {
+  font-size: 14pt;
+}
+
+body div.card-23 p.card-text span.sub-heading {
+  color: #0033a0;
+  font-size: 20pt;
+  font-weight: 620;
+}
+
+body div.card-23 p.card-text span.highlight {
+  color: #00b140;
+}
+
+body div.card-23 button {
+  border-radius: 0;
+}
+
+body div.card4 div.card {
+  border-radius: 0;
+}
+
+body div.card4 button.card-button {
+  border-radius: 0;
+}
+
+body div.card4 p.p1 {
+  background-color: #0033a0;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 550;
+  width: 125px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div.card4 h3 {
+  color: #0033a0;
+  font-weight: 630;
+}
+
+body div.card4 p.lead {
+  font-weight: 550;
+}
+
+body div.card-56 {
+  margin-top: 20px;
+}
+
+body div.card-56 div.card {
+  border-radius: 0;
+}
+
+body div.card-56 div.card-5 {
+  padding-bottom: 15px;
+}
+
+body div.card-56 h5 {
+  margin-bottom: 10px;
+  background-color: #0033a0;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 550;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div.card-56 h5.card-title-1 {
+  width: 140px;
+}
+
+body div.card-56 h5.card-title-2 {
+  width: 70px;
+}
+
+body div.card-56 p.card-text {
+  font-size: 14pt;
+}
+
+body div.card-56 p.card-text span.sub-heading {
+  color: #0033a0;
+  font-size: 20pt;
+  font-weight: 620;
+}
+
+body div.card-56 p.card-text span.highlight {
+  color: #00b140;
+}
+
+body div.card-56 button {
+  border-radius: 0;
+}
+
+body div.card7 div.card {
+  border-radius: 0;
+}
+
+body div.card7 button.card-button {
+  border-radius: 0;
+}
+
+body div.card7 p.p1 {
+  background-color: #0033a0;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: 550;
+  width: 170px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body div.card7 h3 {
+  color: #0033a0;
+  font-weight: 630;
+}
+
+body div.card7 p.lead {
+  font-weight: 550;
+}
+
+body div.jumb {
+  background-color: #f1f1f1 !important;
+  margin-top: 80px;
+}
+
+body div.jumb img {
+  width: 200px;
+  height: 250px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  margin-left: 80px;
+}
+
+body div.jumb h5 {
+  color: #0033a0;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  font-size: 20pt;
+  font-weight: 650;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+}
+
+body div.jumb p {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-weight: 530;
+  font-size: 14pt;
+}
+
+body div.jumb button {
+  border-radius: 0;
+}
+
+body h3.press-releases {
+  color: #0033a0;
+  text-align: center;
+  font-size: 34pt;
+  font-weight: 750;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body div.bottom-card-deck h5.card-title {
+  color: #999;
+  font-size: 15px;
+}
+
+body div.bottom-card-deck div.card {
+  border: 0;
+}
+
+body div.bottom-card-deck div.card:hover {
+  border: 1px solid #0033a0;
+  border-radius: 3px;
+}
+
+body div.bottom-card-deck p.card-text {
+  color: #00b140;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body button.bottom-card-deck-button {
+  margin-left: 1300px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+body div.bottom-fade-card div.card {
+  background-color: #0033a0;
+  border-radius: 0;
+}
+
+body div.bottom-fade-card h3 {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+body div.bottom-fade-card p.lead {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body div.bottom-fade-card button.card-button {
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0;
+  margin-left: 450px;
+}
+
+body p.view-digitally-cognizant {
+  text-align: right;
+  font-size: 15px;
+  margin-right: 200px;
+}
+
+body p.view-digitally-cognizant span {
+  text-decoration: underline;
+  color: #0033a0;
+}
+
+body p.view-digitally-cognizant strong {
+  color: #0033a0;
+}
+
+body div.digitally-cognizant div.card {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+body div.digitally-cognizant p.date {
+  color: #999;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+body div.digitally-cognizant p.sub-heading {
+  color: #00b140;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body div.digitally-cognizant p.text {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-size: 20px;
+}
+
+body div.digitally-cognizant img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+body div.digitally-cognizant p.footer {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-size: 14px;
+}
+
+body div.bottom-form {
+  font-size: 20px;
+  text-align: center;
+}
+
+body div.bottom-form p.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body div.bottom-form strong {
+  margin-bottom: 30px;
+}
+
+body div.bottom-form p {
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+body div.bottom-form input {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+
+body div.bottom-form select {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+}
+
+body div.bottom-form div.input-group-text {
+  margin-left: 400px;
+  -webkit-box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+body div.bottom-form button.form-button {
+  border-radius: 0;
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body nav.bottom-layer {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+body nav.bottom-layer div.bottom-layer-nav a.nav-text {
+  font-weight: 550;
+  color: #000;
+}
+
+body nav.bottom-layer div.bottom-layer-nav a.nav-text:hover {
+  background-color: #b0d89e;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+body nav.bottom-layer div.bottom-layer-nav i {
+  font-size: 28px;
+}
+
+body div.bottom-list {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  font-size: 15px;
+}
+
+body div.bottom-list ul {
+  float: left;
+}
+
+body div.bottom-list ul.lt-1 {
+  margin-left: 350px;
+  margin-right: 20px;
+}
+
+body div.bottom-list ul.lt-2 {
+  margin-right: 20px;
+}
+
+body div.bottom-list ul.lt-3 {
+  margin-right: 20px;
+}
+
+body div.bottom-list li {
+  list-style: none;
+}
+
+body div.bottom-list li:hover {
+  color: #00b140;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+body div.bottom-list li.big-head {
+  font-size: 20px;
+  color: #0033a0;
+  font-weight: bold;
+}
+
+body div.bottom-list li.sub-head {
+  color: #0033a0;
+  font-weight: bold;
+}
+
+body div.bottom-list li.green-hover:hover {
+  color: #00b140;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+/*# sourceMappingURL=handson-2.css.map */

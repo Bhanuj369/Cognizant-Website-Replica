@@ -1,0 +1,59 @@
+body nav.top-layer {
+  width: 100%;
+}
+
+body nav.top-layer div.top-layer-nav a.nav-item {
+  font-weight: 550;
+}
+
+body nav.top-layer div.top-layer-nav a.nav-item:hover {
+  color: #00b140;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+body div.container a.brand-name {
+  color: #0033a1;
+  font-size: 34pt;
+  font-weight: 770;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif,"ms gothic";
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+body div.container a.brand-name:hover {
+  color: #0033a1;
+}
+
+body div.brand-layer-nav button {
+  font-size: 16pt;
+  border-radius: 0;
+}
+
+body div.brand-layer-nav button:hover {
+  background-color: #0033a1;
+  color: #fff;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  border-radius: 0;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+}
+
+body div.carousel img {
+  width: 100%;
+  height: 600px;
+}
+
+body div.carousel div.grad-test {
+  background-image: url("dupp.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(image));
+  background-image: linear-gradient(to right, #fff, image);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+/*# sourceMappingURL=handson-2.css.map */
